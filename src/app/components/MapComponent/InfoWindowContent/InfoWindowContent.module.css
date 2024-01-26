@@ -1,0 +1,5 @@
+/*this style is important because if the color theme in the browser
+changes to dark, font color turns to white, so we need to keep the info visible */
+.infoWindowContent {
+    color: black;
+}

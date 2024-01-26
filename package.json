@@ -1,0 +1,40 @@
+{
+  "name": "countries",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.9.0-rc.1",
+    "@apollo/experimental-nextjs-app-support": "^0.6.0",
+    "@apollo/server": "^4.10.0",
+    "@react-google-maps/api": "^2.19.2",
+    "@vis.gl/react-google-maps": "^0.5.0",
+    "antd": "^5.13.2",
+    "graphql": "^16.8.1",
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-toastify": "^10.0.4",
+    "use-places-autocomplete": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "nodemon": "^3.0.3",
+    "typescript": "^5"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
